@@ -1,6 +1,6 @@
 Name: linuxconsoletools
 Version: 1.4.5
-Release: 1%{?dist}
+Release: 3%{?dist}
 Summary: Tools for connecting joysticks & legacy devices to the kernel's input subsystem
 Group: Applications/System
 License: GPLv2+
@@ -62,6 +62,12 @@ chmod -x %{buildroot}%{_mandir}/man1/*
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4.5-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.5-2
+- Mass rebuild 2013-12-27
+
 * Tue Apr 09 2013 Jaromir Capik <jcapik@redhat.com> - 1.4.5-1
 - Update to 1.4.5
 
